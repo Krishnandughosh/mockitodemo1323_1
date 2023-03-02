@@ -11,7 +11,7 @@ import java.util.List;
 import static org.mockito.Mockito.*;
 
 
-public class MockAnnotation {
+public class MockAnnotationTest {
 
     @Mock
     List<String> mcList;
