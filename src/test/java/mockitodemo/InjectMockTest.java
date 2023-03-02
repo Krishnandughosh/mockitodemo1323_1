@@ -30,8 +30,9 @@ public class InjectMockTest {
 
     Assert.assertEquals(1,mcList.size());
     Assert.assertEquals("Tom",mcList.get(0));
-
+    System.out.println(mcList.get(0));
     Assert.assertEquals("Tom",mEmp.getEmpName().get(0));
+    System.out.println(mEmp.getEmpName().get(0));
   }
 
 }
