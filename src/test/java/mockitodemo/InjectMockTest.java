@@ -34,6 +34,13 @@ public class InjectMockTest {
     Assert.assertEquals("Tom",mEmp.getEmpName().get(0));
     System.out.println(mEmp.getEmpName().get(0));
   }
+  @Test
+  public void testmyServices(){
+  //Adding the code as part of new branch 030323
+  MyServiceCal m=new MyServiceCal()  ;
+  int r=m.add(10,30);
+  Assert.assertEquals(40,r);
+  }
 
 }
 class Employee{
